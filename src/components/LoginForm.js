@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { InputField } from "./InputField";
 import { GoogleSignInButton } from "./GoogleSignInButton";
-import { Footer } from "./Footer";
 
 export const LoginForm = () => {
   const [input, setInput] = useState("");
@@ -54,7 +53,6 @@ export const LoginForm = () => {
       <div className="mt-6">
         <GoogleSignInButton />
       </div>
-      <Footer />
     </form>
   );
 };
